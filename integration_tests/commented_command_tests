@@ -1,0 +1,6 @@
+#echo hello
+echo the next echo has a comment || echo a#comment
+echo and && echo co#mment
+echo hello && echo works#kdjfkjdkfjdk
+ls; echo working#lol
+exit

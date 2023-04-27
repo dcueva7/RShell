@@ -1,0 +1,10 @@
+[ -e ../header/Command.hpp ]
+[ -f ../src/main.cpp ]
+[ -d ../header ]
+[ -e header ]
+[ -f header/nofile.hpp ]
+[ -d nodir ]
+[ -e ../header ] && echo and connector works
+hello || [ -f ../src/main.cpp ] && echo or connector works
+[-d ../src ]; echo semi works
+exit

@@ -1,0 +1,11 @@
+echo this is the input redirection test
+echo
+echo creating file
+echo hello world >> test8
+cat < test8
+echo bye world >> test9
+cat < test9
+echo bye bye
+rm -rf test8
+rm -rf test9
+exit

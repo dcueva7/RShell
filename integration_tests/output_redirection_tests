@@ -1,0 +1,11 @@
+echo this is the output redirection test
+echo we will creat files and then use them to exeute
+echo working1 >> test10
+echo working2 >> test10
+echo workingAnotherFile >> test11
+cat < test10 >> test11
+cat < test11
+rm -rf test10
+rm -rf test11
+echo bye bye
+exit

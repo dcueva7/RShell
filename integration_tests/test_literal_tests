@@ -1,0 +1,12 @@
+test -e ../header
+test -f ../test
+test -d ../src
+test -e ../hello
+test -d header
+test -f sick
+test -e googletest
+test -e googletests
+test -e ../src && echo "path exists"
+test -d ../header; ls
+test -f ../header/or.hpp && echo file exists
+exit

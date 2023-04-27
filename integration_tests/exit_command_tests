@@ -1,0 +1,8 @@
+echo testing the exit function
+echo hopefully this works
+ls
+echo exit 
+hello || ls
+bye || exit
+exit
+

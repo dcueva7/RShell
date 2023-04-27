@@ -1,0 +1,10 @@
+echo this is the pipe operation class
+echo this is how it works
+echo this is cool > pipeFile
+cat < pipeFile | tr a-z A-Z | tr A-Z a-z
+cat < pipeFile
+echo this is the end only deleting the file now
+rm -rf pipeFile
+echo going to exit now
+echo
+exit

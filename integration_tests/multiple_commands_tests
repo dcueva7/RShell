@@ -1,0 +1,8 @@
+echo this will test to see if the multiple commands work
+echo hello && echo this && echo was && echo seperate && echo commands
+ls; echo multiple in the same line
+echo this will print the first command but not the second || echo this is the second
+ls && echo ls was succesful 
+ls || exit
+echo hello; echo lit; ls
+exit

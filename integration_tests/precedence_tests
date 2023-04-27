@@ -1,0 +1,10 @@
+(echo hello && echo bye) || (echo this does not work || echo wow)
+(bs || ls) && (echo chill)
+((hlkajd || echo working)&&(echo whats up)) && echo cool;
+echo "testing echo with quotes" && (blah || ls);
+(echo semis; echo are; echo cool) || ls
+(echo works; echo fine) && ls
+(echo hello || ls
+echo hello) && (ls
+echo multiple parantheses work
+exit
